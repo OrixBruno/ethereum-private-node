@@ -11,7 +11,7 @@ geth attach <volumeaddress>/geth.ipc
 // Criar conta
 personal.newAccount("<password>")
 // Desbloquear conta
-personal.unlockAccount("<address>")
+personal.unlockAccount("<address>", "<password>")
 ```
 
 **Conectando Ethereum Wallet via RPC**
