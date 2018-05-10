@@ -15,8 +15,9 @@ personal.unlockAccount("<address>")
 ```
 
 **Conectando Ethereum Wallet via RPC**
+``` bash
 Wallet --rpc http://127.0.0.1:8545
-
+```
 **Iniciando mineração no nó privado - via console geth**
 
 ``` javascript
