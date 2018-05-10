@@ -1,0 +1,13 @@
+version: '2'
+volumes:
+  devchain:
+
+services:
+  geth:
+    build: .
+    ports:
+      - "8545:8545"
+      - "8546:8546"
+      - "30303:30303"
+    volumes: 
+      - devchain:/home/orix/devchain
