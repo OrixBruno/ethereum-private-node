@@ -20,4 +20,4 @@ RUN geth --datadir /home/orix/devchain init /home/orix/devInit/genesis.json
 
 EXPOSE 8545 8546 30303
 
-ENTRYPOINT geth --datadir /home/orix/devchain --rpc --networkid=39318 --maxpeers=0  --rpccorsdomain "*" --rpcaddr "0.0.0.0" --rpcapi "eth,web3,personal,net,miner,admin"
+ENTRYPOINT geth --datadir /home/orix/devchain --rpc --networkid=39318 --maxpeers=2  --rpccorsdomain "*" --rpcaddr "0.0.0.0" --rpcapi "eth,web3,personal,net,miner,admin"
