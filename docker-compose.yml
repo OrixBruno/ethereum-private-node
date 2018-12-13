@@ -1,6 +1,6 @@
 version: '2'
 volumes:
-  devchain:
+  node:
 
 services:
   geth:
@@ -11,4 +11,4 @@ services:
       - "8546:8546"
       - "30303:30303"
     volumes: 
-      - devchain:/home/orix/devchain
+      - node:/home/adm/node

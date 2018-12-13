@@ -22,9 +22,9 @@ Wallet --rpc http://127.0.0.1:8545
 
 ``` javascript
 // Selecionando conta base para mineração
-miner.setEtherbase("0x5b2d132b50deb673dc93b971180c5a9bfa049dad")
+miner.setEtherbase("<address_hash>")
 // Desbloqueando conta base para mineração
-personal.unlockAccount("0x5b2d132b50deb673dc93b971180c5a9bfa049dad")
+personal.unlockAccount("<address_hash>")
 //Startando mineração
 miner.start(<quantidade nucleos para mineracao>)
 ```
